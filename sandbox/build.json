@@ -1,0 +1,30 @@
+{ 
+  "basedir"     : ".",
+  "directories" : {
+    "src"     : "src",
+    "dist"    : "dist",
+    "jquery"  : "src/ext/jquery"
+  },
+
+  "targets" : {
+    "normal" : {
+      "entry"   : "[src]/node",
+      "build"   : "[dist]/project.js",
+      "exclude" : [
+      "[src]/notThat"
+      ]
+    },
+    "normal-mini" : {
+      "depends" : "normal",
+      "mignify" : true,
+      "build"   : "[dist]/project.min.js"
+    },
+    "no-jquery" : {
+      "depends" : "normal",
+      "exclude" : [
+        "[jquery]/*"
+      ],
+      "build"   : "[dist]/project-nojquery.js"
+    }
+  }
+}

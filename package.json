@@ -1,0 +1,19 @@
+{
+  "author": "Alexandre Lacheze",
+  "name": "jsCicada",
+  "description": "Little JS cousin of Apache Ant",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alexstrat/jsCicada.git"
+  },
+  "main" : "lib/builder.js",
+  "engines": {
+    "node": "~v0.4.12"
+  },
+  "dependencies": {
+    "minimatch" : "~0.0.5",
+    "uglify-js": "~1.1"
+  },
+  "devDependencies": {}
+}
