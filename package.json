@@ -5,7 +5,7 @@
   "version": "0.1.21",
   "repository": {
     "type": "git",
-    "url": "git://github.com/alexstrat/jsCicada.git"
+    "url": "https://github.com/alexstrat/jsCicada.git"
   },
   "main" : "lib/builder.js",
   "engines": {
