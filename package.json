@@ -2,7 +2,7 @@
   "author": "Alexandre Lacheze",
   "name": "jsCicada",
   "description": "Little JS cousin of Apache Ant",
-  "version": "0.1.2",
+  "version": "0.1.21",
   "repository": {
     "type": "git",
     "url": "git://github.com/alexstrat/jsCicada.git"
