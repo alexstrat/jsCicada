@@ -47,15 +47,15 @@ Example :
 ```json
 { 
   "basedir"     : ".",            // base directory
-  "directories" : {					 // directory name shortcuts
+  "directories" : {					      // directory name shortcuts
     "src"     : "src",
     "dist"    : "dist",
     "jquery"  : "src/ext/jquery"
   },
 
-  "targets" : {						 // different build configurations are called "targets"
-    "normal" : {						 // "normal" is the name of a target
-      "entry"   : "[src]/node",	 // entry point of your build : where to start finding dependencies
+  "targets" : {						        // different build configurations are called "targets"
+    "normal" : {						      // "normal" is the name of a target
+      "entry"   : "[src]/node",	  // entry point of your build : where to start finding dependencies
       "build"   : "[dist]/project.js", //where you want to place the build file
       "exclude" : [
       "[src]/notThat" 					//simply exclude it from the build
