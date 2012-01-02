@@ -25,7 +25,7 @@ $ npm install jsCicada
 
 ### See it in action
 
-You can find an example of use in the `[sandbox](https://github.com/alexstrat/jsCicada/tree/master/sandbox)` directory : execute the `tes-script.js`..
+You can find an example of use in the [`sandbox`](https://github.com/alexstrat/jsCicada/tree/master/sandbox) directory : execute the `tes-script.js`..
 
 ```bash
 $ cd sandbox/
@@ -94,7 +94,7 @@ var big = "bang";
 
 **Note :** you can ommit the extension (`.js`) that will be added afterwards.
 
-**2nd note:** is it usefull to specify that when you add the same file as dependency several times (in different files), it will be included only once and at the right position ?
+**2nd note :** is it usefull to specify that when you add the same file as dependency several times (in different files), it will be included only once and at the right position ?
 
 #### ...and build !
 
