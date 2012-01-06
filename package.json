@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "minimatch" : "~0.0.5",
-    "uglify-js": "~1.1"
+    "uglify-js": "~1.1",
+    "colors": "~0.6"
   },
   "devDependencies": {}
 }
