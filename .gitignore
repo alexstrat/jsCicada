@@ -1,3 +1,4 @@
 node_modules
 sandbox/dist
 npm-debug.log
+.DS_Store
