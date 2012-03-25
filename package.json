@@ -9,7 +9,7 @@
   },
   "main" : "lib/builder.js",
   "engines": {
-    "node": "~v0.4.12"
+    "node": "~v0.6"
   },
   "dependencies": {
     "minimatch" : "~0.0.5",
