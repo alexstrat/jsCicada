@@ -1,3 +1,4 @@
+# Not supported anymore
 ### Disclaimer
 
 A Node.js build tool to gather/order/filter/mignify all your JS files and their dependencies. Greatly inspired from Apache Ant.
